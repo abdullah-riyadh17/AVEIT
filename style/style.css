@@ -9,6 +9,12 @@
 .heading-center h2 {
   color: #0e2258;
 }
+.c-shadow {
+  box-shadow: 10px 10px 10px 10px gray;
+  /* border-top: 5px solid;
+  border-image: linear-gradient(rgb(62, 105, 246), rgb(126, 139, 240));
+  border-image-slice: 1; */
+}
 .reviwe-container {
   background-color: #ecf6fa;
 }
