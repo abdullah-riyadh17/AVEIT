@@ -9,6 +9,16 @@
 .heading-center h2 {
   color: #0e2258;
 }
+.reviwe-container {
+  background-color: #ecf6fa;
+}
+.review-image {
+  border-radius: 50%;
+  background: #fff;
+  padding: 5px;
+  width: 120px;
+  height: 120px;
+}
 .left {
   box-shadow: 3px 3px 3px 2px rgba(33, 74, 236, 0.2);
 }
