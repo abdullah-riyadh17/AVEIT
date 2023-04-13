@@ -3,6 +3,38 @@
   padding: 0;
   font-family: "Quicksand", sans-serif;
 }
+.top-content {
+  width: 100%;
+  position: relative;
+  z-index: 20;
+}
+.top-right img {
+  width: 100%;
+}
+.top-shape img {
+  position: absolute;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  z-index: 10;
+}
+.btnn {
+  border: none;
+  border-radius: 50%;
+  color: red;
+}
+.btnn i {
+  font-size: 30px;
+  color: #fff;
+  background-color: #f1f1f2;
+}
+.rightbg {
+  background-image: url(../images/rightbg.png);
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
 .heading-center h5 {
   color: #4628ba;
 }
