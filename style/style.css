@@ -9,6 +9,45 @@
 .heading-center h2 {
   color: #0e2258;
 }
+.banner {
+  height: 100vh;
+  position: relative;
+  background-image: url(../images/banner.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 1;
+}
+.blue {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(
+    90deg,
+    rgba(70, 40, 186, 1) 32%,
+    rgba(8, 113, 255, 1) 100%
+  );
+  opacity: 0.8;
+}
+.blue-item {
+  padding: 50px;
+}
+.blue-group {
+  margin-top: 100px;
+}
+
+.data-item {
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 50px 30px;
+  column-gap: 10px;
+  line-height: 20px;
+}
+.subscribe input {
+  border: none;
+  border-radius: 10px;
+}
 .about-left {
   text-align: right;
   margin-right: 50px;
