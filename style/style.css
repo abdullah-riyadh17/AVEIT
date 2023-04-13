@@ -24,6 +24,11 @@
   border-radius: 50%;
   color: red;
 }
+.login {
+  padding: 10px 20px;
+  background-color: #4628ba;
+  border-radius: 10%;
+}
 .btnn i {
   font-size: 30px;
   color: #fff;
