@@ -9,7 +9,36 @@
 .heading-center h2 {
   color: #0e2258;
 }
+.about-left {
+  text-align: right;
+  margin-right: 50px;
+}
+.about-left img {
+  width: 100%;
+}
+.about-right {
+  padding: 0px 15px;
+  line-height: 1.3rem;
+}
+.about-right h2 {
+  color: #0e2258;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.about-list {
+  font-size: 20px;
+}
+.about-list i {
+  border: 2px solid #f1f1f2;
 
+  border-radius: 50%;
+  padding: 15px;
+  background-color: #f1f1f2;
+  margin-top: 24px;
+  margin-right: 15px;
+  color: #4628ba;
+  font-size: 30px;
+}
 .work-item img {
   width: 150px;
   height: 150px;
