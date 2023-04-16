@@ -107,9 +107,17 @@
   column-gap: 10px;
   line-height: 20px;
 }
+.subscribe {
+  padding: 50px 30px;
+  column-gap: 10px;
+  line-height: 20px;
+}
+.subscribe button {
+  border-radius: 0px 10px 10px 0;
+}
 .subscribe input {
-  border: none;
-  border-radius: 10px;
+  border: 2px solid white;
+  border-radius: 10px 0 0 10px;
 }
 .about-left {
   text-align: right;
