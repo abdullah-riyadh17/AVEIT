@@ -3,6 +3,12 @@
   padding: 0;
   font-family: "Quicksand", sans-serif;
 }
+.nav a {
+  color: white;
+}
+.nav > a > img {
+  color: white;
+}
 .top-content {
   width: 100%;
   position: relative;
@@ -167,7 +173,7 @@
   line-height: 100px;
 }
 .c-shadow {
-  box-shadow: 10px 10px 10px 10px rgb(194, 228, 249);
+  box-shadow: 10px 10px 10px 10px #e6f0fd;
   /* border-top: 5px solid;
   border-image: linear-gradient(rgb(62, 105, 246), rgb(126, 139, 240));
   border-image-slice: 1; */
