@@ -221,6 +221,13 @@
 
 .ftr {
   background: #13275c;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-aveit {
+  margin-left: 20px;
 }
 .social > ul {
   display: flex;
@@ -234,10 +241,6 @@
 .row {
   margin-left: 15px;
   margin-right: 15px;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
 }
 .logo img {
   width: 30%;
@@ -248,7 +251,11 @@
 }
 .input-group input {
   padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px 0px 0px 10px;
 }
 .input-group button {
+  border: 1px solid white;
   padding: 20px;
+  border-radius: 0 10px 10px 0;
 }
