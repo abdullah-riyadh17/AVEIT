@@ -29,8 +29,8 @@
   </head>
   <body>
     <!-- navbar -->
- <header class="text-white container">
-<nav class="navbar nav fixed-top">
+ <header class=" container">
+<nav class="navbar nav fixed-top navbar-unscrolled ">
   <div class="container fluid d-flex align-center ">
     <div><a class="navbar-brand" href="#">
       <img src="./images/logo-blue.png" alt="Bootstrap" width="130" height="50">
@@ -931,6 +931,22 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script>
+      const navEl = document.querySelector('.navbar');
+      const nav1 = document.querySelector('.nav')
+      window.addEventListener("scroll", ()=>{
+        if (window.scrollY >=56){
+          navEl.classList.add("navbar-scrolled")
+           navLk.classList.remove("navbar-unscrolled")
+
+        }
+        else if(window.scrollY < 56){
+          navEl.classList.remove("navbar-scrolled")
+          navLk.classList.add("navbar-unscrolled")
+        }
+
+      })
+    </script>
   </body>
 </html>
 
